@@ -42,3 +42,10 @@ Each example folder contains a `.env.example` file. For each project you want to
    ```
    GOOGLE_API_KEY=your_api_key_here
    ```
+
+curl --location 'http://localhost:8000/query' \
+--form 'user_id="test_user"' \
+--form 'session_id="5676916c-f104-4af9-b503-472cd34bd80d"' \
+--form 'query="make it a4"' \
+--form 'file=@"/C:/Users/AZ/Documents/agnt/sample.ai"'
+
