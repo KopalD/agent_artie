@@ -1,0 +1,10 @@
+google-adk==1.19.0
+python-dotenv
+sqlalchemy
+asyncpg
+psycopg2
+psycopg2-binary
+asyncio
+greenlet
+pypiwin32
+fastapi
